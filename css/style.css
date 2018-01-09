@@ -1,0 +1,79 @@
+body{
+	background: url(../ararat.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.menu{
+	height: 40px;
+	width: 100%; 
+	background-color:rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+div{
+	display: flex;
+
+}
+div a{
+	width: 150px;
+	text-decoration: none;
+	text-align: center;
+	color: yellow;
+}
+div a:hover{
+	background-color: black;
+}
+.dzax{
+	position: absolute;
+	top:25px;
+	
+}
+.herosner{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 80px;
+	left: 320px;
+	
+}
+.heros{
+	text-decoration: none;
+	font-family: courier;
+	color: blue;
+	font-size: 14px;
+
+
+}
+
+
+.heros:hover{
+	background-color:#64d121;
+}
+.box1{
+	position: absolute;
+	background-color: rgba(67, 194, 204,0.4);
+	top:80px;
+	left:20px;
+}
+.qartez{
+	position: absolute;
+	right: 100px;
+	top: 25px;
+}
+.map{
+	position: absolute;
+	right: 100px;
+	top: 75px;
+	width: 500px;
+	height: 300px;
+}
+.fb{
+	position: absolute;
+	top:500px;
+	left:20px;
+	width: 50px;
+	height: 50px;
+}
